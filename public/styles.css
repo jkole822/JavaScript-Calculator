@@ -1,7 +1,8 @@
 body {
-	background-color: #c6e8fc;
+	background-color: #eee;
 }
 
+/* Center the calculator */
 .ui.segments {
 	position: fixed;
 	top: 50%;
@@ -10,6 +11,7 @@ body {
 	border-radius: 10px;
 }
 
+/* Button styling */
 button {
 	border: none;
 	outline: none;
@@ -17,6 +19,7 @@ button {
 	background-color: #272829;
 }
 
+/* Ensure calculator does not get too wide */
 #calculator {
 	max-width: 375px;
 }
@@ -25,17 +28,19 @@ button {
 	background-color: #272829;
 }
 
+/* Display Component */
 #calcDisplay {
 	color: white;
 	background-color: #595a5a;
 	height: 67px;
 }
 
+/* Bold and Colored Operator Buttons */
 #divide,
 #multiply,
 #subtract,
 #add,
 #equals {
-	font-weight: bold;
+	font-weight: 800;
 	color: #76d3e4;
 }
