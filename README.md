@@ -5,4 +5,4 @@ A simple calculator created with React-Redux that can be used to evaluate arithm
 
 [View deployed project.](https://jkg-javascript-calculator.herokuapp.com/)
 
-![JavaScript Calculator](calculator-screenshot.png)
+![JavaScript Calculator](/public/calculator-screenshot.png)
